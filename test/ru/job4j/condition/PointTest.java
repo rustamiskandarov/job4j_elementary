@@ -22,7 +22,7 @@ public class PointTest {
 
     @Test
     public void when11to00() {
-        double expected = 1.41;
+        double expected = 0;
         int x1 = 1;
         int x2 = 1;
         int y1 = 0;
@@ -33,7 +33,7 @@ public class PointTest {
 
     @Test
     public void when00to11() {
-        double expected = 1.41;
+        double expected = 0;
         int x1 = 0;
         int x2 = 0;
         int y1 = 1;
